@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="never"
+    android:scrollbars="none"
+    tools:context=".Activity.SendOtpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/logo"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/sendOtp"
+            android:fontFamily="@font/roboto_bold"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:fontFamily="@font/roboto_condensed_regular"
+            android:textColor="@color/liteBlack"
+            android:text="@string/sendingOneTimePassword"
+            android:textSize="14sp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            app:helperText="Required*"
+            app:helperTextTextColor="@color/red"
+            app:counterEnabled="true"
+            app:counterMaxLength="10"
+            app:prefixText="+91"
+            app:startIconDrawable="@drawable/phone_icon"
+            app:prefixTextColor="@color/blue"
+            app:boxStrokeColor="@color/blue"
+            app:hintTextColor="@color/blue"
+            android:hint="@string/mobileNoHint">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/mobileNoInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:maxLength="10"
+                android:fontFamily="@font/roboto_condensed_regular"
+                android:digits="@string/number"
+                android:inputType="phone" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/getOtpButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:background="@drawable/button_shape"
+            android:text="Get OTP"
+            android:fontFamily="@font/roboto_bold"
+            android:onClick="getOtp"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+</ScrollView>

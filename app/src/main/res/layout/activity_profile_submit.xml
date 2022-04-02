@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="never"
+    android:scrollbars="none"
+    tools:context=".Activity.ProfileSubmitActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/logo"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            app:startIconDrawable="@drawable/email_icon"
+            app:prefixTextColor="@color/blue"
+            app:endIconMode="clear_text"
+            app:helperText="Required*"
+            app:helperTextTextColor="@color/red"
+            app:counterEnabled="true"
+            app:counterMaxLength="40"
+            android:hint="@string/emailId"
+            app:boxStrokeColor="@color/blue"
+            app:hintTextColor="@color/blue">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/emailIdInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="40"
+                android:fontFamily="@font/roboto_condensed_regular"
+                android:inputType="textEmailAddress"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            app:startIconDrawable="@drawable/name_icon"
+            app:prefixTextColor="@color/blue"
+            app:endIconMode="clear_text"
+            app:helperText="Required*"
+            app:helperTextTextColor="@color/red"
+            app:counterEnabled="true"
+            app:counterMaxLength="30"
+            android:hint="@string/name"
+            app:boxStrokeColor="@color/blue"
+            app:hintTextColor="@color/blue">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/nameInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="30"
+                android:fontFamily="@font/roboto_condensed_regular"
+                android:digits="@string/alphabet"
+                android:inputType="textCapWords" />
+        </com.google.android.material.textfield.TextInputLayout>
+            <Button
+                android:id="@+id/submitButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:layout_margin="30dp"
+                android:background="@drawable/button_shape"
+                android:text="@string/submit"
+                android:fontFamily="@font/roboto_bold"
+                android:onClick="submitBt"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</ScrollView>

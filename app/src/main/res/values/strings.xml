@@ -1,0 +1,299 @@
+<resources>
+    <string name="app_name">Taxception</string>
+    <string name="versionCode">v 1.0.2</string>
+    <string name="sendOtp">Send OTP</string>
+    <string name="otpVerification">OTP Verification</string>
+    <string name="sendingOneTimePassword">We will send you an One Time Password on this mobile number</string>
+    <string name="mobileNoHint">Enter Mobile Number</string>
+    <string name="emailId">Enter Your Email ID</string>
+    <string name="name">Enter Your Name</string>
+    <string name="enterTheOtpSend">Enter The OTP send to</string>
+    <string name="didNotReceiveOtp">Did not receive OTP? </string>
+    <string name="resendOtp">RESEND OTP</string>
+    <string name="verify">Verify</string>
+    <string name="invalid_mobile">Please Enter a Valid Mobile Number</string>
+    <string name="submit">Submit</string>
+    <string name="alphabet">abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="number">0123456789</string>
+    <string name="ifscCode">ABCDEFGHIJKLMNOPQRSTUVWXYZ 1234567890"</string>
+
+    <!-- Home page -->
+    <string name="ownerDetails">Owner Details</string>
+    <string name="nameOwner">SURAJIT CHATTERJEE</string>
+    <string name="ownerEmailId">digital.taxceptionjgm@gmail.com</string>
+    <string name="ownerPhoneNumber">9933750238 / 7001331978</string>
+    <string name="notify1">IT Return Submission with in 7 days after receiving documents</string>
+    <string name="notify2">We need your Personal details and Form-16</string>
+    <string name="notify3">. Rs. 300.00 and Rs. 500.00 for ITR-1 and ITR-2 respectively</string>
+
+    <string name="details">Rs. ₹</string>
+    <string name="details2">and</string>
+    <string name="details3">for ITR-1 and ITR-2 respectively</string>
+
+    <string name="itr1required">ITR-1 Required* Document</string>
+    <string name="itr2required">ITR-2 Required* Document</string>
+    <string name="required1">*Form:- 16</string>
+    <string name="required2">*Property Detail</string>
+    <string name="required3">*Interest on Property or Rent Paid</string>
+    <string name="required4">*Income from o/s</string>
+    <string name="required5">*Bank Details</string>
+    <string name="required6">*Price:- ₹</string>
+    <string name="required7">*Interest on H.B.L</string>
+    <string name="required8">*One or More Property Details</string>
+    <string name="required9">*Dividend</string>
+    <string name="required10">*Tax Deduction</string>
+    <string name="itr1requiredButton">For ITR-1 Please Click This</string>
+    <string name="itr2requiredButton">For ITR-2 Please Click This</string>
+
+    <!-- ITR-1 and ITR-2 page -->
+    <string name="selectCategory">Select Category</string>
+    <string name="personalDetails">Tax Payer Personal details</string>
+    <string name="enterYourName">Enter Tax Payer Name</string>
+    <string name="enterYourDateOfBirth">Enter Tax Payer Date of Birth</string>
+    <string name="enterAddress">Enter Tax Payer Full Address</string>
+    <string name="selectState">Select Tax Payer State</string>
+    <string name="enterYourCityTown">Enter Tax Payer Your City/Town</string>
+    <string name="enterPinCode">Enter Tax Payer  PinCode Number</string>
+    <string name="enterPanCard">Enter Tax Payer PanCard Number</string>
+    <string name="enterAadhaarCard">Enter Tax Payer  Aadhaar Card Number</string>
+
+    <string name="taxTypesInfo">Tax Types Info :-</string>
+    <string name="selectFinancialYear">Select Financial Year</string>
+    <string name="selectHouseType">Select House Type</string>
+    <string name="onePropertyDetails">Property Details</string>
+    <string name="oneOrMorePropertyDetails">One or More Property Details</string>
+    <string name="interestOnProperty">Interest on Property or Rent Paid</string>
+    <string name="interestHBL">Interest on H.B.L</string>
+    <string name="incomeFromSBInterest">Income from O/S SB interest</string>
+    <string name="dividend">Dividend</string>
+    <string name="taxDeduction">Tax Deduction</string>
+
+    <string name="bankDetails">Bank Details</string>
+    <string name="selectBankName">Select Bank Name</string>
+    <string name="accountHolderName">Account Holder Name</string>
+    <string name="enterIFSCCode">Enter IFSC code</string>
+    <string name="accountHolderNumber">Account Number</string>
+    <string name="confirmAccountHolderNumber">Confirm Account Number</string>
+    <string name="from16">From-16</string>
+
+    <!-- Return Details -->
+    <string name="userName">Tax Payer Name : </string>
+    <string name="userDOB">Tax Payer Date of Birth : </string>
+    <string name="type">Tax Type : </string>
+    <string name="financialYear">Financial Year : </string>
+    <string name="category">Category : </string>
+    <string name="transactionId">Transaction ID : </string>
+    <string name="income">Income : </string>
+    <string name="houseType">House Type : </string>
+    <string name="propertyDetails">Property Details : </string>
+    <string name="interestProperty">Interest Property : </string>
+    <string name="dividendView">Dividend : </string>
+    <string name="TaxDeduction">80G - Tax Deduction : </string>
+    <string name="bankName">Bank Name : </string>
+    <string name="holderName">Account Holder Name </string>
+    <string name="IFSCCode">Bank IFSC Code : </string>
+    <string name="accNumber">Account Number : </string>
+    <string name="submitDate">Submit Date : </string>
+    <string name="address">Tax Payer Address : </string>
+    <string name="cityTown">Tax Payer City / Town : </string>
+    <string name="pinCodeNumber">Tax Payer PinCode Number : </string>
+    <string name="panCard">Tax Payer PanCard Number : </string>
+    <string name="aadhaarCardNumber">Tax Payer AadhaarCard Number : </string>
+
+    <!-- slider-->
+    <string name="slider1">ITR-1 Submit Date is coming to end. Please contact us for any questions.</string>
+    <string name="slider2">ITR-2 Submit Date is coming to end. Please contact us for any questions.</string>
+    <string name="slider3">We do accept Online Payment. Please pay us online.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="home_fragment">Home</string>
+    <string name="status_fragment">Status</string>
+    <string name="profile_fragment">Profile</string>
+
+
+    <string name="alertMsgITR1">ITR-1 will be filed based upon details provided by you. If we find any discrepancies we will notify you. You have to Scan and send Form-16 in the next Page. Thanks.</string>
+    <string name="alertMsgITR2">ITR-2 will be filed based upon details provided by you. If we find any discrepancies we will notify you. You have to Scan and send Form-16 in the next Page.. Thanks.</string>
+    <string name="alertMsgPayment">Have you scanned and Uploaded all pages of Form-16 ? If Yes, please proceed for Payment.</string>
+
+    <string name="paymentDescription">After Scanning of all pages of Form-16, click on Payment button to complete the Payment. Return will be processed only after receiving the Payment.</string>
+
+    <string name="conformPayment1">Thanks for providing all the details. Your Acknowledgement No. is</string>
+    <string name="conformPayment2"> which you will referred for future correspondence. If we find inconsistencies or incomplete information, we will notify you in the APP.</string>
+
+    <string name="uploadPdf">If You have more pdf to upload then click on the pdf button or click the payment button to continue</string>
+    <string name="uploadPicture">If You have more pages to scan then click on the camera button or click the payment button to continue</string>
+    <!--    spinner-->
+
+    <!-- select Category-->
+    <string-array name="selectCategory">
+        <item>Self</item>
+        <item>Relative(DD)</item>
+    </string-array>
+
+    <!-- SelectState-->
+    <string-array name="selectState">
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chhattisgarh</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Odisha</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttar Pradesh</item>
+        <item>Uttarakhand</item>
+        <item>West Bengal</item>
+    </string-array>
+
+
+    <!-- House Type-->
+    <string-array name="selectHouseType">
+        <item>Rent</item>
+        <item>Self(Own)</item>
+    </string-array>
+
+    <!-- Financial Year-->
+    <string-array name="selectFinancialYear">
+        <item>2019-2020</item>
+        <item>2020-2021</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="termsAndConditions">
+        <![CDATA[
+        <h4>Generic Terms and Conditions:</h4>
+        <p>Please read these terms and conditions ("terms and conditions", "terms") carefully before using <a href ="www.taxception.in">www.taxception.in</a> website.</p>
+        <p><b>Conditions of use:</b></p>
+        <p>By using this website, you certify that you have read and reviewed this Agreement and that you agree to comply with its terms. If you do not want to be bound by the terms of this Agreement, you are advised to leave the website accordingly. Taxception only grants use and access of this website, its products, and its services to those who have accepted its terms.</p>
+        <p><b>Privacy policy:</b></p>
+        <p>Before you continue using our website, we advise you to read our privacy policy taxception.in regarding our user data collection. It will help you better understand our practices.</p>
+        <p><b>Age restriction:</b></p>
+        <p>You must be at least 18 (eighteen) years of age before you can use this website. By using this website, you warrant that you are at least 18 years of age and you may legally adhere to this Agreement. Taxceptionassumes no responsibility for liabilities related to age misrepresentation.</p>
+        <p><b>Intellectual property:</b></p>
+        <p>You agree that all materials, products, and services provided on this website are the property of [name], its affiliates, directors, officers, employees, agents, suppliers, or licensors including all copyrights, trade secrets, trademarks, patents, and other intellectual property. You also agree that you will not reproduce or redistribute the [name]’sintellectual property in any way, including electronic, digital, or new trademark registrations.</p>
+        <p>You grant [name] a royalty-free and non-exclusive license to display, use, copy, transmit, and broadcast the content you upload and publish. For issues regarding intellectual property claims, you should contact the company in order to come to an agreement.</p>
+        <p><b>User accounts:</b></p>
+        <p>As a user of this website, you may be asked to register with us and provide private information. You are responsible for ensuring the accuracy of this information, and you are responsible for maintaining the safety and security of your identifying information. You are also responsible for all activities that occur under your account or password.</p>
+        <p>If you think there are any possible issues regarding the security of your account on the website, inform us immediately so we may address them accordingly.</p>
+        <p>We reserve all rights to terminate accounts, edit or remove content and cancel orders at our sole discretion.</p>
+        <p><b>Applicable law:</b></p>
+        <p>By visiting this website, you agree that the laws of the Jhargram, West Bengal, India, without regard to principles of conflict laws, will govern these terms and conditions, or any dispute of any sort that might come between [name] and you, or its business partners and associates.</p>
+        <p><b>Disputes:</b></p>
+        <p>Any dispute related in any way to your visit to this website or to products you purchase from us shall be arbitrated by state or federal court [location] and you consent to exclusive jurisdiction and venue of such courts.</p>
+        <p><b>Indemnification:</b></p>
+        <p>You agree to indemnify Taxception and its affiliates and hold Taxception harmless against legal claims and demands that may arise from your use or misuse of our services. We reserve the right to select our own legal counsel</p>
+        <p><b>Limitation on liability:</b></p>
+        <p>Taxception is not liable for any damages that may occur to you as a result of your misuse of our website.</p>
+        <p>Taxception reserves the right to edit, modify, and change this Agreement at any time. We shall let our users know of these changes through electronic mail. This Agreement is an understanding between [name] and the user, and this supersedes and replaces all prior agreements regarding the use of this website.</p>
+        ]]>
+    </string>
+    <string name="privacyPolicy">
+        <![CDATA[
+        <h4>TAXCEPTION PRIVACY POLICY:</h4>
+        <p><b>TAXCEPTION (Last updated September 1, 2021):</b></p>
+        <p>Taxception (“we” or “us” or “our”) respects the privacy of our users (“user” or “you”). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our mobile application (the “Application”).Please read this Privacy Policy carefully.  IF YOU DO NOT AGREE WITH THE TERMS OF THIS PRIVACY POLICY, PLEASE DO NOT ACCESS THE APPLICATION. </p>
+        <p>We reserve the right to make changes to this Privacy Policy at any time and for any reason.  We will alert you about any changes by updating the “Last updated” date of this Privacy Policy.  You are encouraged to periodically review this Privacy Policy to stay informed of updates. You will be deemed to have been made aware of, will be subject to, and will be deemed to have accepted the changes in any revised Privacy Policy by your continued use of the Application after the date such revised Privacy Policy is posted.  </p>
+        <p>This Privacy Policy does not apply to the third-party online/mobile store from which you install </p>
+        <h4>COLLECTION OF YOUR INFORMATION:</h4>
+        <p>We may collect information about you in a variety of ways.  The information we may collect via the Application depends on the content and materials you use, and includes:  </p>
+        <p><b>Personal Data:</b></p>
+        <p>Demographic and other personally identifiable information (such as your name and email address) that you voluntarily give to us when choosing to participate in various activities related to the Application, such as chat, posting messages in comment sections or in our forums, liking posts, sending feedback, and responding to surveys.  If you choose to share data about yourself via your profile, online chat, or other interactive areas of the Application, please be advised that all data you disclose in these areas is public and your data will be accessible to anyone who accesses the Application.</p>
+        <h4>DISCLOSURE OF YOUR INFORMATION:</h4>
+        <p>We may share information we have collected about you in certain situations. Your information may be disclosed as follows: </p>
+        <p><b>By Law or to Protect Rights: </b></p>
+        <p>If we believe the release of information about you is necessary to respond to legal process, to investigate or remedy potential violations of our policies, or to protect the rights, property, and safety of others, we may share your information as permitted or required by any applicable law, rule, or regulation.  This includes exchanging information with other entities for fraud protection and credit risk reduction.</p>
+        <h4>SECURITY OF YOUR INFORMATION:</h4>
+        <p>We use administrative, technical, and physical security measures to help protect your personal information.  While we have taken reasonable steps to secure the personal information you provide to us, please be aware that despite our efforts, no security measures are perfect or impenetrable, and no method of data transmission can be guaranteed against any interception or other type of misuse.  Any information disclosed online is vulnerable to interception and misuse by unauthorized parties.  Therefore, we cannot guarantee complete security if you provide personal information.</p>
+        <h4>POLICY FOR CHILDREN:</h4>
+        <p>We do not knowingly solicit information from or market to children under the age of 13. If you become aware of any data we have collected from children under age 13, please contact us using the contact information provided below. </p>
+        <h4>CONTROLS FOR DO-NOT-TRACK FEATURES:</h4>
+        <p>Most web browsers and some mobile operating systems [and our mobile applications] include a Do-Not-Track (“DNT”) feature or setting you can activate to signal your privacy preference not to have data about your online browsing activities monitored and collected.  No uniform technology standard for recognizing and implementing DNT signals has been finalized. As such, we do not currently respond to DNT browser signals or any other mechanism that automatically communicates your choice not to be tracked online.  If a standard for online tracking is adopted that we must follow in the future, we will inform you about that practice in a revised version of this Privacy Policy.</p>
+        <h4>CONTACT US:</h4>
+        <p>If you have questions or comments about this Privacy Policy, please contact us at:</p>
+        <p><b>Taxception</b></p>
+        <p><b>Name : </b>Surajit Chatterjee</p>
+        <p><b>Address : </b>Sujan Apartment, Raghunathpur, Jhargram – 721507, West Bengal, India</p>
+        <p><b>E-mail : </b><font color="blue"><u>digital.taxceptionjgm@gmail.com</u></font></p>
+        ]]>
+    </string>
+    <string name="returnPolicy">
+        <![CDATA[
+        <h4>Generic Refund Policy:</h4>
+        <p>Thanks for purchasing our products (or subscribing to our services) at www.taxception.in operated by Taxception.</p>
+        <p>We offer a full money-back guarantee for all purchases made on our Mobile APP or Website. If you are not satisfied with the product that you have purchased from us, you can get your money back no questions asked. You are eligible for a full reimbursement within 14 calendar days of your purchase.</p>
+        <p>After the 14-day period you will no longer be eligible and won\'t be able to receive a refund. We encourage our customers to try the product (or service) in the first two weeks after their purchase to ensure it fits your needs.</p>
+        <p>If you have any additional questions or would like to request a refund, feel free to contact us.</p>
+        ]]>
+    </string>
+    <string name="contactUs">
+        <![CDATA[
+        <h4>CONTACT US:</h4>
+        <p>If you have questions or comments about, please contact us at:</p>
+        <p><b>Taxception</b></p>
+        <p><b>Name : </b>Surajit Chatterjee</p>
+        <p><b>Address : </b>Sujan Apartment, Raghunathpur, Jhargram – 721507, West Bengal, India</p>
+        <p><b>E-mail : </b><font color="blue"><u>digital.taxceptionjgm@gmail.com</u></font></p>
+        ]]>
+    </string>
+
+    <string name="moreInfo">
+        <a href="https://www.incometax.gov.in/iec/foportal/help/individual/return-applicable-1">more information</a>
+    </string>
+
+    <string name="profile_textView">
+        <![CDATA[
+        <h3>Returns and Forms Applicable for Salaried Individuals for AY 2021-22</h3>
+        <h4>1. ITR-1 (SAHAJ) – Applicable for Individual</h4>
+
+						<strong>This return is applicable for a Resident (other than Not Ordinarily Resident) Individual having Total Income from any of the following sources up to ₹ 50 lakh:</strong><br />
+						(a) Salary / Pension <br />
+						(b) One House Property <br />
+						(c) Other sources (Interest, Family Pension, Dividend etc.) <br />
+						(d) Agricultural Income up to ₹ 5,000 <br />
+                        <br/>
+						<strong>Note:</strong> ITR-1 cannot be used by a person who:<br />
+						(a) is a Director in a company <br />
+						(b) has held any unlisted equity shares at any time during the previous year <br />
+						(c) has any asset (including financial interest in any entity) located outside India <br />
+						(d) has signing authority in any account located outside India <br />
+						(e) has income from any source outside India <br />
+						(f) is a person in whose case tax has been deducted u/s 194N <br />
+						(g) is a person in whose case payment or deduction of tax has been deferred on ESOP<br />
+						(h) who has any brought forward loss or loss to be carried forward under any head of income</p>
+
+		<h4>2. ITR-2 - Applicable for Individual and HUF</h4>
+		<strong>This return is applicable for Individual and Hindu Undivided Family (HUF):</strong><br/>
+		(a) Not Having Income under the head Profits and Gains of Business or Profession<br/>
+		(b) Who is not eligible for filing ITR-1, 2 or 4<br/>
+
+
+		<h3>Forms Applicable</h3>
+		<h4>1. Form 16 - Certificate of Tax Deducted at Source on Salary (U/s 203 of the Income Tax Act, 1961)</h4>
+		<strong>Provided by:</strong><br/>
+		An Employer(s) to his Employee at the end of the financial year<br/>
+		<strong>Details provided in the form:</strong><br/>
+		Income of the such person, Deductions / Exemptions and Tax Deducted at Source for the purpose of Computing Tax Payable / Refundable<br/>
+         ]]>
+    </string>
+
+</resources>
